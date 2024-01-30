@@ -25,6 +25,7 @@ vim.g.mapleader = " "
 
 vim.api.nvim_set_hl(0, '@lsp.type.comment.c', {})
 vim.api.nvim_set_hl(0, '@lsp.type.comment.cpp', {})
+vim.opt.pumblend = 0
 
 --Randomize the background color with a random image each time vim is opened
 --os.execute([[ "C:/Users/Gabriel Premore/Desktop/my stuff/python-scripts/RandomizeCmdBackgroundImage.py" ]])
